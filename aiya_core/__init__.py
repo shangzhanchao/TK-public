@@ -1,4 +1,9 @@
-"""AIYA Cognitive Core package."""
+"""AIYA Cognitive Core package.
+
+This package contains simplified implementations of the modules that make up
+the AIYA emotional companion robot backend.
+这个包包含了 AIYA 情感陪伴机器人后端的简化实现。
+"""
 
 from .personality import PersonalityGrowthEngine
 from .memory import SemanticMemorySystem

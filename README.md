@@ -22,8 +22,15 @@ following modules:
 These modules are intended as a starting point for building a more
 sophisticated AI companion backend.
 
-Run the demo with:
+Run the scheduler demo with:
 
 ```bash
 python -m aiya_core.example_usage
+```
+
+Additional example scripts for each module can be found in `aiya_core/examples`.
+Execute them directly, for example:
+
+```bash
+python aiya_core/examples/personality_demo.py
 ```
