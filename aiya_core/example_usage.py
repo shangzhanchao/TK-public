@@ -1,5 +1,5 @@
 """Example usage of the AI Cognitive Core modules."""
-from .module_scheduler import ModuleScheduler
+from .scheduler import ModuleScheduler
 
 if __name__ == "__main__":
     scheduler = ModuleScheduler()

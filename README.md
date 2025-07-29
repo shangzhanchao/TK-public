@@ -4,19 +4,26 @@ This repository contains a minimal Vue 3 application that demonstrates a single-
 
 ## AI Cognitive Core
 
-The `ai_core` directory contains a lightweight prototype of an AI brain
-for a companion robot. It is composed of the following modules:
+The `aiya_core` directory contains a lightweight prototype of the
+AIYA (中文名：AI芽) emotional companion robot backend. It is composed of the
+following modules:
 
 - `PersonalityGrowthEngine` – tracks OCEAN personality traits and updates
-them with user feedback.
+  them with user feedback.
 - `SemanticMemorySystem` – stores conversation fragments and retrieves
-recent events.
+  recent events.
 - `MultiModalEmotionRecognizer` – placeholder class for analyzing audio
-and video to detect emotions.
+  and video to detect emotions.
 - `GrowthDialogueSystem` – generates responses based on personality and
-stored memories.
+  stored memories.
 - `ModuleScheduler` – orchestrates all modules and exposes a `process`
-method to handle user input.
+  method to handle user input.
 
 These modules are intended as a starting point for building a more
 sophisticated AI companion backend.
+
+Run the demo with:
+
+```bash
+python -m aiya_core.example_usage
+```

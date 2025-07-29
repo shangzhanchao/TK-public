@@ -1,7 +1,7 @@
-from .personality_growth import PersonalityGrowthEngine
-from .semantic_memory import SemanticMemorySystem
-from .emotion_recognition import MultiModalEmotionRecognizer
-from .dialogue_system import GrowthDialogueSystem
+from .personality import PersonalityGrowthEngine
+from .memory import SemanticMemorySystem
+from .emotion import MultiModalEmotionRecognizer
+from .dialogue import GrowthDialogueSystem
 
 
 class ModuleScheduler:
